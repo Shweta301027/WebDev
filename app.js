@@ -1,7 +1,8 @@
 const effect = document.querySelectorAll(".hover");
 const fa = document.querySelectorAll("#fa")
 // console.log(effect);
-const logo = document.querySelector('.logo')
+const logo = document.querySelector('.logo');
+const hamburger = document.querySelector('.hamburger')
 
     for(let i=0; i<effect.length; i++){
         effect[i].addEventListener('mouseover' ,()=>{
@@ -28,4 +29,8 @@ const logo = document.querySelector('.logo')
     })
     logo.addEventListener('mouseleave' ,()=>{
         logo.style.backgroundColor ='white'
+    })
+
+    hamburger.addEventListener('click',()=>{
+        hamburger.display.icons
     })

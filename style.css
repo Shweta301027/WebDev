@@ -5,7 +5,14 @@
 }
 header{
     border-bottom: 1px solid lightgray; 
-    
+}
+.hamburger{
+    display: none;
+    font-size: 2rem;
+    padding: 5px 10px;
+}
+.doc-pointer{
+    margin-right: 10px;
 }
 .parent{
     display: flex;
@@ -20,10 +27,12 @@ margin-top: 10px;
 .icons{
     display: flex;
     align-items: center;
+    color: rgb(54, 53, 53);
 }
 .icons p{
     font-size: 1.2em;
-    font-weight: bold;
+    font-weight:550;
+
 }
 #fa{
     padding: 7px;
@@ -37,7 +46,7 @@ margin-top: 10px;
 }
 .hover{
     border-radius: 5px;
-    margin-top: 8px;
+    margin-top: 2px;
     margin-right: 10px;
 }
 
@@ -62,7 +71,7 @@ margin-right: 20px;
     display: flex;
     align-items: center;
     border-radius: 5px;
-    padding:0 10px;
+    padding: 8px;
 }
 
 
@@ -76,5 +85,15 @@ margin-right: 20px;
     }
     .share{
         display: none;
+    }
+    #fa{
+        display: none;
+    }
+    .logo{
+        margin-top:-80px;
+
+    }
+    .hamburger{
+        display: inline;
     }
 }
